@@ -1,0 +1,85 @@
+/* ESTILOS NORMALES (para móviles en vertical) */
+
+@media (max-width: 767px) {
+  .search-panel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 0.7rem;
+    width: 50%;
+  }
+  .search-panel select {
+    background: linear-gradient(rgba(0, 255, 255, 0.61), white);
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    align-self: center;
+    margin: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-panel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 0.7rem;
+    width: 50%;
+  }
+  .search-panel select {
+    background: linear-gradient(rgba(0, 255, 255, 0.61), white);
+    border: none;
+    width: 45%;
+    border-radius: 7px;
+    align-self: center;
+    margin: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+/* Tablets en horizonal y escritorios normales  */
+
+@media (min-width: 1024px) {
+  .search-panel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 0.7rem;
+    width: 50%;
+  }
+  .search-panel select {
+    background: linear-gradient(rgba(0, 255, 255, 0.61), white);
+    border: none;
+    width: 40%;
+    border-radius: 7px;
+    align-self: center;
+    margin: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+/* Escritorios muy anchos  */
+
+@media (min-width: 1200px) {
+  .search-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    font-size: 0.7rem;
+    align-self: center;
+    width: 30%;
+  }
+  .search-panel select {
+    background: linear-gradient(rgba(0, 255, 255, 0.61), white);
+    border: none;
+    border-radius: 7px;
+    margin: 1rem;
+    width: 60%;
+    color: black;
+    font-weight: bold;
+  }
+}

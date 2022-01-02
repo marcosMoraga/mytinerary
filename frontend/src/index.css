@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/* ESTILOS NORMALES (para móviles en vertical) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 11px;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Móviles en horizontal o tablets en vertical  */
+
+@media (min-width: 768px) {
+}
+
+/* Tablets en horizonal y escritorios normales  */
+
+@media (min-width: 1024px) {
+}
+
+/* Escritorios muy anchos  */
+
+@media (min-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    width: 100vw;
+    max-height: 100vh;
+  }
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+}

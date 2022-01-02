@@ -1,0 +1,532 @@
+/* ESTILOS NORMALES (para móviles en vertical) */
+
+@media (max-width: 767px) {
+  .container-carrousel i {
+    opacity: 65%;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .carrousel {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .image-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    animation: appear 5s;
+    padding: 0.2rem;
+  }
+  .inner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+  .inner-down {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 50%;
+  }
+
+  /* max-width - max height */
+
+  .red {
+    max-height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 0.5rem 0.1rem 0;
+    text-decoration: none;
+    background-color: rgb(12, 0, 0);
+  }
+  .third-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .last-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .first-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .second-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .black {
+    max-height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    border-radius: 10px;
+    /* animation: appear 2s; */
+  }
+  .green {
+    max-height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    /* animation: appear 3s; */
+    margin-top: 0.1rem;
+  }
+  .orange {
+    max-height: 100%;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    /* animation: appear 4s; */
+    margin: 0.1rem 0.5rem 0 0;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner-top i,
+  .inner-down i {
+    display: flex;
+    cursor: pointer;
+    font-size: 1.5rem;
+    /* justify-self: center; */
+    position: absolute;
+    height: 35%;
+    justify-items: center;
+    align-items: center;
+  }
+  .inner-down .fa-chevron-down {
+    margin-top: 2.8rem;
+  }
+  .third-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .carrousel h2 {
+    background-color: rgba(240, 248, 255, 0.575);
+  }
+  .last-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .first-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .second-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .carrousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .image-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: black; */
+    animation: appear 5s;
+    padding: 0.2rem;
+  }
+  .inner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+
+    width: 100%;
+  }
+  .inner-down {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 50%;
+  }
+  .red {
+    height: 50%;
+    width: 50%;
+    align-self: flex-end;
+    border-radius: 10px;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0.5rem 0.1rem 0;
+    /* background-color: rgb(255, 255, 255); */
+  }
+  .black {
+    height: 50%;
+    width: 50%;
+    align-self: flex-end;
+    background-position: center;
+    text-decoration: none;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .black:hover {
+    opacity: 1;
+  }
+  .green {
+    height: 50%;
+    width: 50%;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    /* animation: appear 3s; */
+    margin-top: 0.1rem;
+  }
+  .green:hover {
+    opacity: 1;
+  }
+  .orange {
+    height: 50%;
+    width: 50%;
+    text-decoration: none;
+    border-radius: 10px;
+    /* animation: appear 4s; */
+    margin: 0.1rem 0.5rem 0 0;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+/* Tablets en horizonal y escritorios normales  */
+
+@media (min-width: 1024px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .carrousel i {
+    opacity: 65%;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .third-image {
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .last-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .first-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .second-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .carrousel {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .image-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    animation: appear 5s;
+    padding: 0.2rem;
+  }
+  .inner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+  .inner-down {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 50%;
+  }
+
+  .red {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    opacity: 65%;
+    margin: 0 0.5rem 0.1rem 0;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+  }
+  .red:hover {
+    opacity: 1;
+  }
+  .black {
+    height: 100%;
+    cursor: pointer;
+    width: 50%;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    /* animation: appear 2s; */
+    opacity: 65%;
+  }
+  .black:hover {
+    opacity: 1;
+  }
+  .green {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 65%;
+    /* animation: appear 3s; */
+    margin-top: 0.1rem;
+  }
+  .green:hover {
+    opacity: 1;
+  }
+  .orange {
+    cursor: pointer;
+    height: 100%;
+    width: 50%;
+    opacity: 65%;
+    border-radius: 10px;
+    text-decoration: none;
+    /* animation: appear 4s; */
+    margin: 0.1rem 0.5rem 0 0;
+    background-position: center;
+    background-size: cover;
+  }
+  .orange:hover {
+    opacity: 1;
+    /* box-shadow: 0 0 5px 5px rgba(158, 245, 201, 0.37);  */
+  }
+}
+
+/* Escritorios muy anchos  */
+
+@media (min-width: 1200px) {
+  .container-carrousel i {
+    opacity: 65%;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .container-carrousel i:hover {
+    opacity: 1;
+  }
+  .third-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .last-image {
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .first-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .second-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .carrousel {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .image-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    animation: appear 5s;
+    padding: 0.2rem;
+  }
+  .inner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+  .inner-down {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 50%;
+  }
+  .red {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    opacity: 65%;
+    margin: 0 0.5rem 0.1rem 0;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+  }
+  .red:hover {
+    opacity: 1;
+  }
+  .black {
+    height: 100%;
+    cursor: pointer;
+    width: 50%;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    /* animation: appear 2s; */
+    opacity: 65%;
+  }
+  .black:hover {
+    opacity: 1;
+  }
+  .green {
+    height: 100%;
+    width: 50%;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 65%;
+    /* animation: appear 3s; */
+    margin-top: 0.1rem;
+  }
+  .green:hover {
+    opacity: 1;
+  }
+  .orange {
+    cursor: pointer;
+    height: 100%;
+    width: 50%;
+    opacity: 65%;
+    border-radius: 10px;
+    /* animation: appear 4s; */
+    text-decoration: none;
+    margin: 0.1rem 0.5rem 0 0;
+    background-position: center;
+    background-size: cover;
+  }
+  .orange:hover {
+    opacity: 1;
+    /* box-shadow: 0 0 5px 5px rgba(158, 245, 201, 0.37);  */
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 1;
+  }
+}

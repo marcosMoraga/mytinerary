@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+  .filter-city {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+    color: white;
+    height: 100%;
+    padding: 1rem;
+    align-items: center;
+  }
+  .img-filter {
+    height: 50%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 768px) {
+  .filter-city {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+    align-items: center;
+  }
+  .img-filter {
+    height: 50%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 1024px) {
+  .filter-city {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    height: 80%;
+    padding: 1rem;
+    align-items: center;
+  }
+  .img-filter {
+    height: 50%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filter-city {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    height: 100%;
+    padding: 1rem;
+    align-items: center;
+  }
+  .img-filter {
+    height: 50%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
+  }
+}

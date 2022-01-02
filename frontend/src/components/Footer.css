@@ -1,0 +1,159 @@
+/* ESTILOS NORMALES (para móviles en vertical) */
+
+@media (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    /* background-color: rgba(0, 0, 0, 0.486); */
+    font-weight: bold;
+    padding: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+
+    /* opacity: 70%; */
+  }
+  .social-media i {
+    margin: 0 1rem 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 65%;
+  }
+  .social-media i:hover {
+    opacity: 1;
+  }
+  .author-rights {
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+  }
+  .footer-left {
+    display: flex;
+    align-self: flex-end;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    /* background-color: rgba(0, 0, 0, 0.486); */
+    font-weight: bold;
+    padding: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+
+    /* opacity: 70%; */
+  }
+  .social-media i {
+    margin: 0 1rem 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 65%;
+  }
+  .social-media i:hover {
+    opacity: 1;
+  }
+  .author-rights {
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+  }
+  .footer-left {
+    display: flex;
+    align-self: flex-end;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Tablets en horizonal y escritorios normales  */
+
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    /* background-color: rgba(0, 0, 0, 0.486); */
+    font-weight: bold;
+    padding: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+
+    /* opacity: 70%; */
+  }
+  .social-media i {
+    margin: 0 1rem 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 65%;
+  }
+  .social-media i:hover {
+    opacity: 1;
+  }
+  .author-rights {
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+  }
+  .footer-left {
+    display: flex;
+    align-self: flex-end;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Escritorios muy anchos  */
+
+@media (min-width: 1200px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    /* background-color: rgba(0, 0, 0, 0.486); */
+    font-weight: bold;
+    padding: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+
+    /* opacity: 70%; */
+  }
+  .social-media i {
+    margin: 0 1rem 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 65%;
+  }
+  .social-media i:hover {
+    opacity: 1;
+  }
+  .author-rights {
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+  }
+  .footer-left {
+    display: flex;
+    align-self: flex-end;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Linkedin para contratar guias turisticos */

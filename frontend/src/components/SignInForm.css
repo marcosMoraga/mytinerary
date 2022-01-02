@@ -1,0 +1,281 @@
+@media (max-width: 767px) {
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    border-radius: 15px;
+    height: 90%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 1rem;
+  }
+  .sign-form input:not(input[type="submit"]) {
+    align-self: center;
+    width: 75%;
+    color: white;
+    height: 10%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px,
+      rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+  }
+  .btngoogle {
+    height: 10% !important;
+    width: 15% !important;
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle div {
+    padding: 0.3rem !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle span {
+    display: none !important;
+  }
+  .sign-form input[type="submit"] {
+    width: 30%;
+    height: 15%;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    border-radius: 30%;
+    background-color: rgb(33, 33, 100);
+    justify-content: center;
+    cursor: pointer;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .sign-form h2 {
+    text-align: center;
+    color: white;
+  }
+  .action-sign-up {
+    text-decoration: none;
+    color: #ff0000;
+    opacity: 65%;
+  }
+  .action-sign-up:hover {
+    opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    border-radius: 15px;
+    height: 80%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 1rem;
+  }
+  .sign-form input:not(input[type="submit"]) {
+    align-self: center;
+    width: 75%;
+    color: white;
+    height: 10%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px,
+      rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+  }
+  .btngoogle {
+    height: 10% !important;
+    width: 15% !important;
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle div {
+    padding: 0.3rem !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle span {
+    display: none !important;
+  }
+  .sign-form input[type="submit"] {
+    width: 30%;
+    height: 15%;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    border-radius: 30%;
+    background-color: rgb(33, 33, 100);
+    justify-content: center;
+    cursor: pointer;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .sign-form h2 {
+    text-align: center;
+    color: white;
+  }
+  .action-sign-up {
+    text-decoration: none;
+    color: #ff0000;
+    opacity: 65%;
+  }
+  .action-sign-up:hover {
+    opacity: 1;
+  }
+}
+@media (min-width: 1024px) {
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 15px;
+    height: 80%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 1rem;
+  }
+  .sign-form input:not(input[type="submit"]) {
+    align-self: center;
+    width: 75%;
+    color: white;
+    height: 10%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px,
+      rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+  }
+  .btngoogle {
+    height: 10% !important;
+    width: 15% !important;
+    /* border-radius: 50% !important; */
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle div {
+    padding: 0.3rem !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle span {
+    display: none !important;
+  }
+  .sign-form input[type="submit"] {
+    width: 30%;
+    height: 15%;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    border-radius: 30%;
+    background-color: rgb(33, 33, 100);
+    justify-content: center;
+    cursor: pointer;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .sign-form h2 {
+    text-align: center;
+    color: white;
+  }
+  .action-sign-up {
+    text-decoration: none;
+    color: #ff0000;
+    opacity: 65%;
+  }
+  .action-sign-up:hover {
+    opacity: 1;
+  }
+}
+@media (min-width: 1200px) {
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    border-radius: 15px;
+    height: 90%;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 1rem;
+  }
+  .sign-form input:not(input[type="submit"]) {
+    align-self: center;
+    width: 75%;
+    color: white;
+    height: 10%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px,
+      rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+  }
+  .btngoogle {
+    height: 10% !important;
+    width: 15% !important;
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle div {
+    padding: 0.3rem !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .btngoogle span {
+    display: none !important;
+  }
+  .sign-form input[type="submit"] {
+    width: 30%;
+    height: 15%;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    border-radius: 30%;
+    background-color: rgb(33, 33, 100);
+    justify-content: center;
+    cursor: pointer;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .sign-form h2 {
+    text-align: center;
+    color: white;
+  }
+  .action-sign-up {
+    text-decoration: none;
+    color: #ff0000;
+    opacity: 65%;
+  }
+  .action-sign-up:hover {
+    opacity: 1;
+  }
+}

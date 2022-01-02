@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .Toastify__toast-theme--light {
+    display: flex;
+    background-color: black;
+    color: rgb(221, 64, 64);
+    font-weight: bold;
+    width: 40%;
+  }
+
+  .container-signIn-form {
+    width: 100%;
+    padding: 1rem;
+    justify-content: flex-start;
+    display: flex;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .Toastify__toast-theme--light {
+    display: flex;
+
+    font-weight: bold;
+  }
+
+  .container-signIn-form {
+    width: 100%;
+    padding: 1rem;
+    justify-content: flex-start;
+    display: flex;
+    height: 100%;
+  }
+}
+@media (min-width: 10240px) {
+  .Toastify__toast-theme--light {
+    display: flex;
+
+    font-weight: bold;
+  }
+
+  .container-signIn-form {
+    width: 100%;
+    padding: 1rem;
+    justify-content: flex-start;
+    display: flex;
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .Toastify__toast-theme--light {
+    display: flex;
+
+    font-weight: bold;
+  }
+
+  .container-signIn-form {
+    width: 100%;
+    padding: 1rem;
+    justify-content: flex-start;
+    display: flex;
+    height: 100%;
+  }
+}

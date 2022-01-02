@@ -1,0 +1,830 @@
+@media (max-width: 767px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    overflow: auto;
+  }
+
+  section h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+  }
+  .itinerary {
+    display: flex;
+    height: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.507) solid 1px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    border-radius: 10px;
+  }
+  .price-icon-container i {
+    margin-right: 0.5rem;
+  }
+  .body-itinerary {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .itineraries-control-panel {
+    display: flex;
+    justify-content: center;
+  }
+  .itineraries-control-panel i {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .itinerary button {
+    border: none;
+    color: rgba(255, 255, 255, 0.589);
+    background-color: transparent;
+  }
+  .itinerary-comments i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .itinerary-activities {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: flex-end;
+  }
+  .inner-header h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .header-section {
+    display: flex;
+    align-items: center;
+  }
+  .comments {
+    height: 100%;
+  }
+  .activities {
+    height: 100%;
+  }
+  .itinerary-comments {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 45%;
+    flex-direction: column;
+  }
+  .itinerary-activities i {
+    cursor: pointer;
+
+    font-size: 1.5rem;
+  }
+  .atributes span {
+    display: block;
+    margin-right: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .hashtags h2 span {
+    display: column;
+    margin-right: 1rem;
+    justify-content: space-around;
+  }
+  .fa-hourglass-start {
+    padding-right: 0.4rem;
+  }
+  .atributes h2 {
+    display: flex;
+    width: 100%;
+  }
+  .no-itinerary {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.568);
+    justify-content: center;
+    align-items: center;
+  }
+  .atributes h2 span:last-child {
+    color: red;
+    font-weight: bold;
+  }
+  .atributes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-itinerary {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .fa-heart {
+    cursor: pointer;
+    padding-right: 0.4rem;
+  }
+  .footer-itinerary {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .hashtags {
+    display: flex;
+    justify-items: center;
+  }
+  .user-identify {
+    display: flex;
+    align-items: center;
+  }
+  .user-identify h2 {
+    margin-right: 1.5rem;
+  }
+  .itineraries-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1rem;
+    width: 100%;
+  }
+  .itineraries h2 {
+    font-size: 1.5rem;
+  }
+  .interactions {
+    display: flex;
+    width: 100%;
+  }
+  .all-citi {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin: 1rem;
+  }
+  .user-img {
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+  }
+  .all-citi h2 {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+  }
+  .all-citi:hover {
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media (min-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    /* justify-content: center; */
+  }
+
+  section h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+  }
+  .itinerary {
+    display: flex;
+    height: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.507) solid 1px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    border-radius: 10px;
+  }
+  .price-icon-container i {
+    margin-right: 0.5rem;
+  }
+  .body-itinerary {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .itineraries-control-panel {
+    display: flex;
+    align-items: center;
+  }
+  .itineraries-control-panel i {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .itinerary button {
+    border: none;
+    color: rgba(255, 255, 255, 0.589);
+    background-color: transparent;
+  }
+  .itinerary-comments i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .itinerary-activities {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: flex-end;
+  }
+  .inner-header h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .header-section {
+    display: flex;
+    align-items: center;
+  }
+  .comments {
+    height: 100%;
+  }
+  .activities {
+    height: 100%;
+  }
+  .itinerary-comments {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 45%;
+    flex-direction: column;
+  }
+  .itinerary-activities i {
+    cursor: pointer;
+
+    font-size: 1.5rem;
+  }
+  .atributes span {
+    display: block;
+    margin-right: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .hashtags h2 span {
+    display: column;
+    margin-right: 1rem;
+    justify-content: space-around;
+  }
+  .fa-hourglass-start {
+    padding-right: 0.4rem;
+  }
+  .atributes h2 {
+    display: flex;
+    width: 100%;
+  }
+  .no-itinerary {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.568);
+    justify-content: center;
+    align-items: center;
+  }
+  .atributes h2 span:last-child {
+    color: red;
+    font-weight: bold;
+  }
+  .atributes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-itinerary {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .fa-heart {
+    cursor: pointer;
+    padding-right: 0.4rem;
+  }
+  .footer-itinerary {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .hashtags {
+    display: flex;
+    justify-items: center;
+  }
+  .user-identify {
+    display: flex;
+    align-items: center;
+  }
+  .user-identify h2 {
+    margin-right: 1.5rem;
+  }
+  .itineraries-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 1rem;
+    width: 100%;
+  }
+  .itineraries h2 {
+    font-size: 1.5rem;
+  }
+  .interactions {
+    display: flex;
+    width: 100%;
+  }
+  .all-citi {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin: 1rem;
+  }
+  .user-img {
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+  }
+  .all-citi h2 {
+    text-align: center;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+  }
+  .all-citi:hover {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    /* justify-content: center; */
+  }
+
+  section h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+  }
+  .itinerary {
+    display: flex;
+    height: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.507) solid 1px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    border-radius: 10px;
+  }
+  .price-icon-container i {
+    margin-right: 0.5rem;
+  }
+  .body-itinerary {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .itineraries-control-panel {
+    display: flex;
+    align-items: center;
+  }
+  .itineraries-control-panel i {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .itinerary button {
+    border: none;
+    color: rgba(255, 255, 255, 0.589);
+    background-color: transparent;
+  }
+  .itinerary-comments i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .itinerary-activities {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: flex-end;
+  }
+  .inner-header h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .header-section {
+    display: flex;
+    align-items: center;
+  }
+  .comments {
+    height: 100%;
+  }
+  .activities {
+    height: 100%;
+  }
+  .itinerary-comments {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 45%;
+    flex-direction: column;
+  }
+  .itinerary-activities i {
+    cursor: pointer;
+
+    font-size: 1.5rem;
+  }
+  .atributes span {
+    display: block;
+    margin-right: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .hashtags h2 span {
+    display: column;
+    margin-right: 1rem;
+    justify-content: space-around;
+  }
+  .fa-hourglass-start {
+    padding-right: 0.4rem;
+  }
+  .atributes h2 {
+    display: flex;
+    width: 100%;
+  }
+  .no-itinerary {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.568);
+    justify-content: center;
+    align-items: center;
+  }
+  .atributes h2 span:last-child {
+    color: red;
+    font-weight: bold;
+  }
+  .atributes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-itinerary {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .fa-heart {
+    cursor: pointer;
+    padding-right: 0.4rem;
+  }
+  .footer-itinerary {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .hashtags {
+    display: flex;
+    justify-items: center;
+  }
+  .user-identify {
+    display: flex;
+    align-items: center;
+  }
+  .user-identify h2 {
+    margin-right: 1.5rem;
+  }
+  .itineraries-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 1rem;
+    width: 100%;
+  }
+  .itineraries h2 {
+    font-size: 1.5rem;
+  }
+  .interactions {
+    display: flex;
+    width: 100%;
+  }
+  .all-citi {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin: 1rem;
+  }
+  .user-img {
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+  }
+  .all-citi h2 {
+    text-align: center;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+  }
+  .all-citi:hover {
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media (min-width: 1200px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    /* justify-content: center; */
+  }
+
+  section h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+  }
+  .itinerary {
+    display: flex;
+    height: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.507) solid 1px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    border-radius: 10px;
+  }
+  .price-icon-container i {
+    margin-right: 0.5rem;
+  }
+  .body-itinerary {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .itineraries-control-panel {
+    display: flex;
+    align-items: center;
+  }
+  .itineraries-control-panel i {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .itinerary button {
+    border: none;
+    color: rgba(255, 255, 255, 0.589);
+    background-color: transparent;
+  }
+  .itinerary-comments i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .itinerary-activities {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: flex-end;
+  }
+  .inner-header h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .header-section {
+    display: flex;
+    align-items: center;
+  }
+  .comments {
+    height: 100%;
+  }
+  .activities {
+    height: 100%;
+  }
+  .itinerary-comments {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 45%;
+    flex-direction: column;
+  }
+  .itinerary-activities i {
+    cursor: pointer;
+
+    font-size: 1.5rem;
+  }
+  .atributes span {
+    display: block;
+    margin-right: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .hashtags h2 span {
+    display: column;
+    margin-right: 1rem;
+    justify-content: space-around;
+  }
+  .fa-hourglass-start {
+    padding-right: 0.4rem;
+  }
+  .atributes h2 {
+    display: flex;
+    width: 100%;
+  }
+  .no-itinerary {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.568);
+    justify-content: center;
+    align-items: center;
+  }
+  .atributes h2 span:last-child {
+    color: red;
+    font-weight: bold;
+  }
+  .atributes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-itinerary {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .fa-heart {
+    cursor: pointer;
+    padding-right: 0.4rem;
+  }
+  .footer-itinerary {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .hashtags {
+    display: flex;
+    justify-items: center;
+  }
+  .user-identify {
+    display: flex;
+    align-items: center;
+  }
+  .user-identify h2 {
+    margin-right: 1.5rem;
+  }
+  .itineraries-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 1rem;
+    width: 100%;
+  }
+  .itineraries h2 {
+    font-size: 1.5rem;
+  }
+  .interactions {
+    display: flex;
+    width: 100%;
+  }
+  .all-citi {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin: 1rem;
+  }
+  .user-img {
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+  }
+  .all-citi h2 {
+    text-align: center;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+  }
+  .all-citi:hover {
+    background-color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,68 @@
+/* ESTILOS NORMALES (para móviles en vertical) */
+
+@media (max-width: 767px) {
+  .popular-cities {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+    color: white;
+    height: auto;
+    align-items: center;
+  }
+  .popular-cities label i {
+    background-color: black;
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .popular-cities {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    height: 100%;
+    align-items: center;
+  }
+  .popular-cities label i {
+    background-color: black;
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+/* Tablets en horizonal y escritorios normales  */
+
+@media (min-width: 1024px) {
+  .popular-cities {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    height: 100%;
+    align-items: center;
+  }
+  .popular-cities label i {
+    background-color: black;
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+/* Escritorios muy anchos  */
+
+@media (min-width: 1200px) {
+  .popular-cities {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    height: 100%;
+    align-items: center;
+  }
+}

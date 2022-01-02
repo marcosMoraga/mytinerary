@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+  .sign-form select {
+    width: 40%;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    margin-top: 0.5rem;
+  }
+  .error-input {
+    color: red !important;
+    font-weight: bold;
+  }
+}
+@media (min-width: 768px) {
+  .sign-form select {
+    width: 40%;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    margin-top: 0.5rem;
+  }
+  .error-input {
+    color: red !important;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1024px) {
+  .sign-form select {
+    width: 40%;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    margin-top: 0.5rem;
+  }
+  .error-input {
+    color: red !important;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1200px) {
+  .sign-form select {
+    width: 40%;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    margin-top: 0.5rem;
+  }
+  .error-input {
+    color: red !important;
+    font-weight: bold;
+  }
+}
