@@ -37,7 +37,6 @@
   .container-carrousel i {
     display: flex;
     justify-content: center;
-    opacity: 65%;
     font-size: 1.5rem;
   }
 }
@@ -55,16 +54,13 @@
   .container-carrousel button {
     border-radius: 10px;
     cursor: pointer;
-    opacity: 65%;
     width: 45%;
     color: rgb(255, 255, 255);
     align-self: center;
     background-color: rgb(26, 31, 29);
     height: auto;
   }
-  .container-carrousel button:hover {
-    opacity: 1;
-  }
+
   .action-popular-cities {
     display: flex;
     justify-content: center;
@@ -74,9 +70,7 @@
   .show-action-button {
     display: flex;
   }
-  .action-popular-cities button:hover {
-    opacity: 1;
-  }
+
   .action-popular-cities button {
     /* align-self: flex-end; */
     justify-content: center;
@@ -84,17 +78,12 @@
     height: 10%;
     border-radius: 10px;
     cursor: pointer;
-    opacity: 65%;
   }
   .container-carrousel i {
     display: flex;
     justify-content: center;
-    opacity: 65%;
     cursor: pointer;
     font-size: 1.5rem;
-  }
-  .container-carrousel i:hover {
-    opacity: 1;
   }
 }
 
@@ -112,16 +101,13 @@
   .container-carrousel button {
     border-radius: 10px;
     cursor: pointer;
-    opacity: 65%;
     width: 45%;
     color: rgb(255, 255, 255);
     align-self: center;
     background-color: rgb(26, 31, 29);
     height: auto;
   }
-  .container-carrousel button:hover {
-    opacity: 1;
-  }
+
   .action-popular-cities {
     display: flex;
     justify-content: center;
@@ -131,19 +117,13 @@
   .show-action-button {
     display: flex;
   }
-  .action-popular-cities button:hover {
-    opacity: 1;
-  }
+
   .action-popular-cities button {
     justify-content: center;
     width: 45%;
     height: 10%;
     border-radius: 10px;
     cursor: pointer;
-    opacity: 65%;
-  }
-  .container-carrousel i:hover {
-    opacity: 1;
   }
 }
 
@@ -160,16 +140,13 @@
   .container-carrousel button {
     border-radius: 10px;
     cursor: pointer;
-    opacity: 65%;
     width: 45%;
     color: rgb(255, 255, 255);
     align-self: center;
     background-color: rgb(26, 31, 29);
     height: auto;
   }
-  .container-carrousel button:hover {
-    opacity: 1;
-  }
+
   .action-popular-cities {
     display: flex;
     justify-content: center;
@@ -179,9 +156,7 @@
   .show-action-button {
     display: flex;
   }
-  .action-popular-cities button:hover {
-    opacity: 1;
-  }
+
   .action-popular-cities button {
     /* align-self: flex-end; */
     justify-content: center;
@@ -189,16 +164,11 @@
     height: 10%;
     border-radius: 10px;
     cursor: pointer;
-    opacity: 65%;
   }
   .container-carrousel i {
     display: flex;
     justify-content: center;
-    opacity: 65%;
     cursor: pointer;
     font-size: 1.5rem;
-  }
-  .container-carrousel i:hover {
-    opacity: 1;
   }
 }

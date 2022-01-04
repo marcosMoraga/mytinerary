@@ -5,23 +5,17 @@
     display: flex;
     flex-direction: row;
     color: blanchedalmond;
-    /* background-color: rgba(0, 0, 0, 0.486); */
     font-weight: bold;
     padding: 1rem;
     justify-content: space-between;
     justify-content: center;
-
-    /* opacity: 70%; */
   }
   .social-media i {
     margin: 0 1rem 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
-    opacity: 65%;
   }
-  .social-media i:hover {
-    opacity: 1;
-  }
+
   .author-rights {
     font-size: 0.6rem;
     letter-spacing: 0.2rem;
@@ -43,23 +37,17 @@
     display: flex;
     flex-direction: row;
     color: blanchedalmond;
-    /* background-color: rgba(0, 0, 0, 0.486); */
     font-weight: bold;
     padding: 1rem;
     justify-content: space-between;
     justify-content: center;
-
-    /* opacity: 70%; */
   }
   .social-media i {
     margin: 0 1rem 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
-    opacity: 65%;
   }
-  .social-media i:hover {
-    opacity: 1;
-  }
+
   .author-rights {
     font-size: 0.6rem;
     letter-spacing: 0.2rem;
@@ -83,23 +71,17 @@
     display: flex;
     flex-direction: row;
     color: blanchedalmond;
-    /* background-color: rgba(0, 0, 0, 0.486); */
     font-weight: bold;
     padding: 1rem;
     justify-content: space-between;
     justify-content: center;
-
-    /* opacity: 70%; */
   }
   .social-media i {
     margin: 0 1rem 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
-    opacity: 65%;
   }
-  .social-media i:hover {
-    opacity: 1;
-  }
+
   .author-rights {
     font-size: 0.6rem;
     letter-spacing: 0.2rem;
@@ -123,23 +105,17 @@
     display: flex;
     flex-direction: row;
     color: blanchedalmond;
-    /* background-color: rgba(0, 0, 0, 0.486); */
     font-weight: bold;
     padding: 1rem;
     justify-content: space-between;
     justify-content: center;
-
-    /* opacity: 70%; */
   }
   .social-media i {
     margin: 0 1rem 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
-    opacity: 65%;
   }
-  .social-media i:hover {
-    opacity: 1;
-  }
+
   .author-rights {
     font-size: 0.6rem;
     letter-spacing: 0.2rem;

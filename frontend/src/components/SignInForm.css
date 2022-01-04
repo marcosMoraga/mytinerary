@@ -62,10 +62,6 @@
   .action-sign-up {
     text-decoration: none;
     color: #ff0000;
-    opacity: 65%;
-  }
-  .action-sign-up:hover {
-    opacity: 1;
   }
 }
 @media (min-width: 768px) {
@@ -132,10 +128,6 @@
   .action-sign-up {
     text-decoration: none;
     color: #ff0000;
-    opacity: 65%;
-  }
-  .action-sign-up:hover {
-    opacity: 1;
   }
 }
 @media (min-width: 1024px) {
@@ -203,10 +195,6 @@
   .action-sign-up {
     text-decoration: none;
     color: #ff0000;
-    opacity: 65%;
-  }
-  .action-sign-up:hover {
-    opacity: 1;
   }
 }
 @media (min-width: 1200px) {
@@ -273,9 +261,5 @@
   .action-sign-up {
     text-decoration: none;
     color: #ff0000;
-    opacity: 65%;
-  }
-  .action-sign-up:hover {
-    opacity: 1;
   }
 }
