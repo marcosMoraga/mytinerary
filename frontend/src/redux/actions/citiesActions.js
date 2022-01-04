@@ -4,13 +4,13 @@ import axios from 'axios'
 const citiesActions = {
     requestCities: () => {
         return async (dispatch, getState) => {
-            const res = await axios.get('http://localhost:4000/api/cities')
+            const res = await axios.get('https://mytinerary-moraga.herokuapp.com/api/cities')
             dispatch({ type: 'request', payload: res.data.response.cities })
         }
     },
     requestCity: (id) => {
         return async (dispatch, getState) => {
-            const res = await axios.get(`http://localhost:4000/api/city/${id}`)
+            const res = await axios.get(`https://mytinerary-moraga.herokuapp.com/api/city/${id}`)
             return res.data.response
         }
     },

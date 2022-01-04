@@ -15,7 +15,7 @@ const CommentForm = (props) => {
 
     useEffect(() => {
         async function handlerComments(idItinerary) {
-            const res = await axios.get(`http://localhost:4000/api/comments/itinerary/${idItinerary}`)
+            const res = await axios.get(`https://mytinerary-moraga.herokuapp.com/api/comments/itinerary/${idItinerary}`)
             setComments(res.data.comments)
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps

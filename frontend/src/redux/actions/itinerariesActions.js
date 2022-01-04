@@ -4,7 +4,7 @@ import axios from 'axios'
 const itinerariesActions = {
     requestItineraries: (id) => {
         return async (dispatch, state) => {
-            const res = await axios.get(`http://localhost:4000/api/itineraries/city/${id}`)
+            const res = await axios.get(`https://mytinerary-moraga.herokuapp.com/api/itineraries/city/${id}`)
             dispatch({ type: 'requestItineraries', payload: res.data.response })
         }
     },
@@ -12,7 +12,7 @@ const itinerariesActions = {
         return async (dispatch, state) => {
             try {
                 const token = localStorage.getItem('token')
-                const res = await axios.put(`http://localhost:4000/api/like/itinerary/${itineraryId}`, {}, {
+                const res = await axios.put(`https://mytinerary-moraga.herokuapp.com/api/like/itinerary/${itineraryId}`, {}, {
                     headers: { 'Authorization': 'Bearer ' + token }
                 })
                 dispatch({ type: 'likes', payload: { itineraryId, likes: res.data.likes, } })
@@ -26,7 +26,7 @@ const itinerariesActions = {
     addComment: (itineraryId, text) => async (dispatch) => {
         try {
             const token = localStorage.getItem('token')
-            const res = await axios.post(`http://localhost:4000/api/comments/itinerary/${itineraryId}`, text, {
+            const res = await axios.post(`https://mytinerary-moraga.herokuapp.com/api/comments/itinerary/${itineraryId}`, text, {
                 headers: { 'Authorization': 'Bearer ' + token }
             })
 
@@ -39,7 +39,7 @@ const itinerariesActions = {
     deleteComment: (itineraryId, commentId) => async (dispatch) => {
         try {
             const token = localStorage.getItem('token')
-            const res = await axios.delete(`http://localhost:4000/api/comments/${commentId}/itinerary/${itineraryId}`, {
+            const res = await axios.delete(`https://mytinerary-moraga.herokuapp.com/api/comments/${commentId}/itinerary/${itineraryId}`, {
                 headers: { 'Authorization': 'Bearer ' + token }
             })
             return { succes: true, msg: 'Comment deleted successfully', comments: res.data.comments }
@@ -50,7 +50,7 @@ const itinerariesActions = {
     updateComment: (itineraryId, commentId, text) => async (dispatch) => {
         try {
             const token = localStorage.getItem('token')
-            const res = await axios.put(`http://localhost:4000/api/comments/${commentId}/itinerary/${itineraryId}`, { text }, {
+            const res = await axios.put(`https://mytinerary-moraga.herokuapp.com/api/comments/${commentId}/itinerary/${itineraryId}`, { text }, {
                 headers: { 'Authorization': 'Bearer ' + token }
             })
             return { succes: true, msg: 'Comment updated successfully', comments: res.data.comments }

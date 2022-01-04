@@ -4,7 +4,7 @@ const userActions = {
     addUser: (paramUser) => {
         return async (dispatch, getState) => {
             try {
-                const user = await axios.post('http://localhost:4000/api/user/signup', paramUser)
+                const user = await axios.post('https://mytinerary-moraga.herokuapp.com/api/user/signup', paramUser)
                 if (user.data.success && !user.data.error) {
                     localStorage.setItem('token', user.data.response.token)
                     dispatch({ type: 'usuario', payload: { userName: user.data.response.userName, img: user.data.response.img, userID: user.data.response._id } })
@@ -20,7 +20,7 @@ const userActions = {
     signIn: (email, password, google) => {
         return async (dispatch, getState) => {
             try {
-                const user = await axios.post('http://localhost:4000/api/user/signin', { email, password, google })
+                const user = await axios.post('https://mytinerary-moraga.herokuapp.com/api/user/signin', { email, password, google })
                 if (user.data.success && !user.data.error) {
                     localStorage.setItem('token', user.data.response.token)
                     dispatch({ type: 'usuario', payload: { userName: user.data.response.userName, img: user.data.response.img, userID: user.data.response._id } })
@@ -37,7 +37,7 @@ const userActions = {
         return async (dispatch, getState) => {
             try {
                 const token = localStorage.getItem('token')
-                const user = await axios.get('http://localhost:4000/api/user/auth', {
+                const user = await axios.get('https://mytinerary-moraga.herokuapp.com/api/user/auth', {
                     headers: { 'Authorization': 'Bearer ' + token }
                 })
                 dispatch({ type: 'usuario', payload: { userName: user.data.response.userName, img: user.data.response.img, userID: user.data.response._id } })
