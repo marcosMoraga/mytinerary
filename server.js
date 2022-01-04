@@ -22,7 +22,7 @@ app.use('/api', Router)
 
 
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT, '0.0.0.0', () => {
     console.log('Server listening ');
 })
 
