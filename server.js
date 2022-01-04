@@ -19,9 +19,9 @@ app.use(passport.initialize())
 
 // trae las routes y le asigna una ruta predeterminada
 app.use('/api', Router)
+app.use(express.static("public"));
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'))
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname + '/client/build/index.html'))
     })
