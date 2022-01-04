@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'production') {
     })
 }
 
-app.listen(process.env.PORT || 4000, 'localhost' || '0.0.0.0', () => {
+app.listen(process.env.PORT || process.env.LOCALPORT, process.env.HOST || process.env.LOCALHOST, () => {
     console.log('Server listening ');
 })
 
