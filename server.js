@@ -6,6 +6,7 @@ const express = require('express')
 const app = express()
 const passport = require('passport')
 require('./config/database')
+const path = require('path')
 
 // middlewares 
 app.use(cors())
