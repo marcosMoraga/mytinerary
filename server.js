@@ -20,7 +20,12 @@ app.use(passport.initialize())
 // trae las routes y le asigna una ruta predeterminada
 app.use('/api', Router)
 
-
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'))
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'))
+    })
+}
 
 app.listen(process.env.PORT, '0.0.0.0', () => {
     console.log('Server listening ');
